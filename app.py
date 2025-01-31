@@ -4,7 +4,7 @@ from urllib.parse import urlparse, parse_qs
 import requests
 import groq
 app = Flask(__name__)
-api_url = "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"
+api_url = "Groq_api_key"
 
 @app.route('/')
 def index():
